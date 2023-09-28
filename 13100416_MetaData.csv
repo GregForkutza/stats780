@@ -1,0 +1,77 @@
+﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
+"Live births, by age of mother","13100416","102-4503","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1310041601",1;2;10;12;13;14,"CURRENT - a cube available to the public and that is current","Annual","1991-01-01","2022-01-01","3",
+
+"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
+"1","Geography, place of residence of mother",5,""
+"2","Age of mother",3,""
+"3","Characteristics",8,""
+
+"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
+"1","Newfoundland and Labrador, place of residence of mother","[10]","2","1","",,
+"1","Prince Edward Island, place of residence of mother","[11]","3","1","",,
+"1","Nova Scotia, place of residence of mother","[12]","4","1","",,
+"1","New Brunswick, place of residence of mother","[13]","5","1","",,
+"1","Quebec, place of residence of mother","[24]","6","1","",,
+"1","Ontario, place of residence of mother","[35]","7","1","",,
+"1","Manitoba, place of residence of mother","[46]","8","1","",,
+"1","Saskatchewan, place of residence of mother","[47]","9","1","",,
+"1","Alberta, place of residence of mother","[48]","10","1","",,
+"1","British Columbia, place of residence of mother","[59]","11","1","",,
+"1","Yukon, place of residence of mother","[60]","12","1","",,
+"1","Northwest Territories including Nunavut, place of residence of mother","","13","1","",9,
+"1","Northwest Territories, place of residence of mother","[61]","14","1","",6,
+"1","Nunavut, place of residence of mother","[62]","15","1","",,
+"1","Unknown province or territory, place of residence of mother","","16","1","",7,
+"1","Canada, place of residence of mother","[11124]","1","","",7,
+"2","Age of mother, under 15 years","","2","1","",,
+"2","Age of mother, 15 to 19 years","","3","1","",,
+"2","Age of mother, 20 to 24 years","","4","1","",,
+"2","Age of mother, 25 to 29 years","","5","1","",,
+"2","Age of mother, 30 to 34 years","","6","1","",,
+"2","Age of mother, 35 to 39 years","","7","1","",,
+"2","Age of mother, 40 to 44 years","","8","1","",,
+"2","Age of mother, 45 to 49 years","","9","1","",,
+"2","Age of mother, not stated","","10","1","",4,
+"2","Age of mother, all ages","","1","","",4,
+"3","Number of live births","","1","","",,
+"3","Percentage of live births","","2","","",,
+
+Symbol Legend
+Description,Symbol
+"not available for a specific reference period","..",
+"less than the limit of detection","<LOD",
+"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
+"data quality: excellent","A",
+"data quality: very good","B",
+"data quality: good","C",
+"data quality: acceptable","D",
+"use with caution","E",
+"too unreliable to be published","F",
+"not applicable","...",
+"preliminary","p",
+"revised","r",
+"suppressed to meet the confidentiality requirements of the Statistics Act","x",
+"terminated","t",
+
+"Survey Code","Survey Name"
+"3231","Vital Statistics - Birth Database"
+
+"Subject Code","Subject Name"
+"13","Health"
+
+"Note ID",Note
+1,"Source: Statistics Canada, Canadian Vital Statistics - Birth database (CVSB)."
+2,"Live birth is the complete expulsion or extraction from its mother of a product of conception, irrespective of the duration of the pregnancy, which, after such separation, breathes or shows any other evidence of life, such as beating of the heart, pulsation of the umbilical cord, or definite movement of voluntary muscles, whether or not the umbilical cord has been cut or the placenta is attached."
+3,"Age of mother attained at the last birthday preceding delivery."
+4,"For confidentiality reasons, live births to mothers aged 50 and over are included in the category "Age of mother, not stated.""
+5,"The geographic distribution of live births in this table is based on the mother's usual place of residence."
+6,"Northwest Territories excluding Nunavut."
+7,"Unknown province or territory of residence of mother, refers to live births to mothers who are residents of Canada, with unknown province or territory of residence."
+8,"The following standard symbols are used in this Statistics Canada table: (..) for figures not available for a specific reference period, (...) for figures not applicable, and (x) for figures suppressed to meet the confidentiality requirements of the Statistics Act."
+9,"Nunavut and the Northwest Territories (excluding Nunavut) came into existence on April 1, 1999. Data for these two territories are shown combined and separated for 1999 and separated from 2000 on. Historical data prior to 1999 are shown for the two territories combined as the "Northwest Territories including Nunavut" series; it was terminated in 1999. The vital statistics data that pertain to these territories for 1999 were previously published on the basis of the legal definition of each territory, as per the date of the event. Vital events for Nunavut that occurred before April 1, 1999 were tabulated with those of the Northwest Territories; only those events that occurred from April 1, 1999 on were tabulated separately."
+10,"During the production of each year's birth/death/stillbirth statistics, data from previous years may be revised to reflect any updates or changes that have been received from the provincial and territorial vital statistics registrars. Births data for 2020 and 2021 were revised on September 26, 2023."
+12,"2017 to 2022 data for Yukon are not available."
+13,"Due to improvements in methodology and timeliness, the duration of data collection has been shortened compared to previous years. As a result, there may have been fewer births and stillbirths captured by the time of the release. The 2022 data are considered preliminary."
+14,"As a result of delays with birth registrations, fewer births have been captured, to date, for Manitoba in 2022. There were also fewer births captured for Nova Scotia in 2021 due to coverage issues."
+
+"Correction ID","Correction Date","Correction Note"
