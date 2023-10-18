@@ -269,7 +269,7 @@ test observations.
 
 # Model Fitting
 
-KNN does not work for categorical features using the
+kNN does not work for categorical features using the
 euclidean distance metric because it does not make sense to take the distance of
 integer valued categories when the ordinal ranking has no meaning. This can
 be overcome in two steps. First the data is one-hot encoded to create numeric
@@ -415,17 +415,17 @@ Neg Pred Value (Class 0) & $0.9282$ & $1.0000$ \\
 \end{table}
 
 There is distinct performance differences between the two classifiers.
-The first classifier achieves an
+The logistic regression achieves an
 accuracy of $0.8404$ with a $\kappa$ statistic of $0.6761$, indicating
 moderate agreement beyond chance. At the computed threshold of $0.6901$,
 the specificity of the model is approximately $0.9502$, 
 meaning that it correctly identifies about $95.02 \%$ of the negative 
 instances as negative.  At the same threshold, the sensitivity of the model
 is approximately $0.7179$, meaning that it correctly identifies
-about $71.79 \%$ of the positive instances as positive. The classifier 
+about $71.79 \%$ of the positive instances as positive. Logistic regression 
 thus performs relatively well, but there's a notable trade-off between
 sensitivity and specificity. 
-Conversely, the knn classifier achieves a perfect accuracy of 
+Conversely, the kNN classifier achieves a perfect accuracy of 
 1 with a $\kappa$ of 
 1 signifying total agreement. Its sensitivity and specificity are both 
 1, implying no errors in classification. 
